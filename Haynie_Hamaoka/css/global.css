@@ -1,0 +1,173 @@
+#header {
+	width: 1000px;
+	height: 150px;
+	margin: 0px auto;
+}
+
+img {
+	height: 130px;
+	width: 200px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+body {
+	width: 1000px;
+	margin: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 150px;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+li a {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: helvetica;
+	text-decoration: none;
+	color: #000;
+	padding-left: 10px;
+	color: #080073;
+	font-weight: bold;
+}
+
+.nav li a:hover {
+	font-size: 20px;
+}
+
+/**nav i {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}**/
+
+i {
+	float: right;
+	padding-top: 50px;
+	margin: 10px;
+}
+
+#hero {
+	width: 1000px;
+	height: 400px;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 20px auto;
+	text-align: center;
+	font-family: helvetica;
+	color: #080073;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: left;
+	line-height: 1.8;
+}
+
+h2 {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 40px;
+	color: #080073;
+}
+
+.pictures {
+	width: 32.5%;
+	height: 300px;
+	float: left;
+	margin-left: 5px;
+}
+
+.title {
+	float: center;
+}
+
+.contentBox {
+	width: 40%
+	height: 150px;
+}
+
+.content {
+	width: 75%;
+	padding-left: 14.5%;
+}
+ 
+.box {
+	width: 33.33%;
+	height: 350px;
+	margin:20px 0px 20px 0px;
+	padding-right: 0px;
+	float: left;
+}
+
+#rightbox .box {
+	margin-right: 0px;
+}
+
+#footer {
+    bottom: 0;
+    width: 1000px;
+    height: 150px;
+	clear: both;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#logo2 {
+	width: 200px;
+	float: right;
+}
+
+#contact {
+	font-size: 18px;
+	float: left;
+	display: inline;
+}
+
+#contact p {
+	text-align: left;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#email {
+	font-size: 18px;
+	display: inline;
+}
+
+h4 {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+#follow {
+	font-size: 18px;
+	float: right;
+	display: inline;
+}
+
+
+
